@@ -1,0 +1,29 @@
+header {
+	background-color: #1dace0;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+.fixed{
+	position: fixed;
+	width: 100%;
+}
+
+.icon{
+	display: flex;
+	align-items: center;
+	margin-left: 80px;
+}
+
+.icon img{
+	height: 60px;
+}
+
+.icon .name{
+	color: #eae51f;
+	margin-left: 20px;
+}
