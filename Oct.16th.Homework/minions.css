@@ -50,39 +50,26 @@ header {
 /*--------- headerここまで ---------*/
 
 .top{
-	height: 500px;
+	height: 600px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	text-align:center
 }
 
 .toppic{
-	height: 400px;
-	width: 90%;
-	margin-top: 100px;
+	height: 500px;
+	margin-top: 500px;
 	margin: 0 auto;
 }
 
-h1{
-	position: absolute;
-	color: #ffff00;
-	font-weight: bold;
-	font-size: 100px;
-	font-family: Hiragino Kaku Gothic StdN;
-	text-shadow: 0 8px 8px black;
-	margin-top: 550px;
-	margin-left: 250px;
-	text-align:center
-}
 /*--------- main1ここまで ---------*/
 
 .main2title{
 	font-size: 30px;
 	text-align: left;
 	color: #ff8205;
-	margin-left: 20px;
+	margin-left: 50px;
 	margin-top: 30px;
 }
 
@@ -198,3 +185,102 @@ footer{
 		background-color: #1dace0;
 	}
 
+/* タブレット */
+@media screen and (max-width: 960px){
+
+	.toppic{
+		align-items: center;
+	}
+
+	.character{
+		align-items: center;
+	}
+
+	.main2pic{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 30px;
+    }
+
+    .main2pic li{
+	margin-top: 30px;
+    }
+
+    .main2pic li:first-child{
+    	margin-right: 23px;
+    }
+
+    .contact{
+    	text-align: center;
+    }
+
+    .contact .subtitle{
+    	margin-top: 30px;
+    	margin-bottom: 0;
+    }
+
+	.contact .form{
+		flex-flow: column nowrap;
+		margin: 30px 0;
+	}
+
+	.form .name, .form .email, .form .inquiry {
+		width: 60%;
+	}
+
+	.form .name, .form .email{
+		height: 30px;
+	}
+
+	.form .inquiry{
+		height: 80px;
+	}
+
+	.form-left{
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.form-right{
+		margin-left: 25px;
+		width: 750px;
+		padding-top: -3px;
+	}
+
+	.contact button{
+		font-size: 20px;
+		padding: 5px 40px;
+		margin-bottom: 65px;
+	}
+}
+
+/* スマフォ用 */
+@media screen and (max-width: 480px){
+body{
+	min-width: 375px;
+}
+
+.icon{
+	margin-left: 20px;
+}
+
+.header-right{
+	display: none;
+}
+
+.character{
+    font-size: 24px;
+}
+
+.main2pic{
+	flex-flow: column nowrap;
+}
+
+.main2pic li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 0;
+	margin-top: 30px;
+}
+}
