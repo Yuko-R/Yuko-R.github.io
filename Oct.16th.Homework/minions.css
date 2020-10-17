@@ -6,24 +6,195 @@ header {
 	font-size: 25px;
 	font-weight: bold;
 	padding: 5px 0;
+	position: relative;
 }
 
 .fixed{
 	position: fixed;
-	width: 100%;
+    top:0;
+    width: 100%;
+	height: 60px;
 }
 
 .icon{
 	display: flex;
 	align-items: center;
-	margin-left: 80px;
+	margin-left: 40px;
 }
 
 .icon img{
-	height: 60px;
+	height: 55px;
+	width: 35px;
 }
 
 .icon .name{
 	color: #eae51f;
 	margin-left: 20px;
 }
+
+.header-right > li {
+	float: left;
+	margin-left: 10px;
+	margin-top: -18px;
+	list-style: none;
+}
+
+.header-right > li:first-child{
+	margin-left: 0;
+}
+
+.header-right > li:last-child{
+	margin-right: 30px;
+}
+
+/*--------- headerここまで ---------*/
+
+.top{
+	height: 500px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align:center
+}
+
+.toppic{
+	height: 400px;
+	width: 90%;
+	margin-top: 100px;
+	margin: 0 auto;
+}
+
+h1{
+	position: absolute;
+	color: #ffff00;
+	font-weight: bold;
+	font-size: 100px;
+	font-family: Hiragino Kaku Gothic StdN;
+	text-shadow: 0 8px 8px black;
+	margin-top: 550px;
+	margin-left: 250px;
+	text-align:center
+}
+/*--------- main1ここまで ---------*/
+
+.main2title{
+	font-size: 30px;
+	text-align: left;
+	color: #ff8205;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.container{
+  display: flex;
+  height: 250px;
+  width: 100px;
+}
+
+.main2pic{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.main2pic li{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-right: 60px;
+}
+
+.main2pic li:last-child{
+	margin-right: 0;
+}
+
+.main2pic li img{
+	height: 300px;
+	width: 300px;
+}
+
+.main2pic li span{
+	font-size: 24px;
+	margin-top: 20px;
+	background: linear-gradient(transparent 50%, #ff7abc 50%);
+}
+
+h2{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	color: #ff8205;
+}
+
+.contact{
+	text-align: center;
+	background-color: #ffff33;
+	margin-top: 40px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 20px; 
+}
+
+.form{
+	display: flex;
+	justify-content: center;
+}
+
+.form .name ,.form .email{
+	height: 50px;
+	width: 400px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+.form-left{
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+
+.inquiry{
+	height: 120px;
+	width: 400px;
+	font-size: 16px;
+	box-sizing: border-box;
+	margin-right: 50px;
+}
+
+.form .name{
+	margin-bottom: 10px; 
+}
+
+.contact .form{
+	margin: 20px 10px 10px;
+}
+
+.contact button{
+	background-color: #ff8205;
+	color: #fff;
+	border: 3px solid #ffff75;
+	border-radius: 10px;
+	font-size: 24px;
+	padding: 15px 30px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin-bottom: 50px;
+}
+
+.btn{
+	background-color: rgba(29,172,224, .5);
+	border: 3px solid rgba(29,172,224, .3);
+}
+
+.btn:hover{
+	background-color: rgb(29,172,224);
+}
+
+footer{
+		display: flex;
+		justify-content: center;
+		background-color: #1dace0;
+	}
+
