@@ -1,3 +1,6 @@
+body{
+	width: 100%;
+}
 header {
 	background-color: #1dace0;
 	display: flex;
@@ -194,6 +197,10 @@ footer{
 /* タブレット */
 @media screen and (max-width: 960px){
 
+	body{
+		width: 100%;
+	}
+
 	.toppic{
 		align-items: center;
 	}
@@ -218,7 +225,6 @@ footer{
 
     .contact{
     	text-align: center;
-    	align-items: center;
     }
 
     .contact .subtitle{
@@ -232,7 +238,7 @@ footer{
 	}
 
 	.form .name, .form .email, .form .inquiry {
-		width: 60%;
+		width: 460px;
 	}
 
 	.form .name, .form .email{
@@ -249,8 +255,7 @@ footer{
 	}
 
 	.form-right{
-		margin-left: 25px;
-		width: 750px;
+		margin-left: 40px;
 		padding-top: -3px;
 	}
 
@@ -287,6 +292,7 @@ body{
  .main2pic li{
 	margin-top: 30px;
 	width: 150px;
+	align-items: center;
 }
 
 .contact .form{
@@ -296,7 +302,7 @@ body{
 	}
 
 	.form .name, .form .email, .form .inquiry {
-		width: 80%;
+		width: 400px;
 	}
 
 	.form .name, .form .email{
@@ -305,6 +311,7 @@ body{
 
 	.form .inquiry{
 		height: 50px;
+		width: 400px;
 	}
 
 	.form-left{
