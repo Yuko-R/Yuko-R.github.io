@@ -35,7 +35,7 @@ header {
 .header-right > li {
 	float: left;
 	margin-left: 10px;
-	margin-top: 10px;
+	margin-top: 8px;
 	list-style: none;
 }
 
