@@ -35,7 +35,7 @@ header {
 .header-right > li {
 	float: left;
 	margin-left: 10px;
-	margin-top: -18px;
+	margin-top: 10px;
 	list-style: none;
 }
 
@@ -181,8 +181,14 @@ h2{
 
 footer{
 		display: flex;
-		justify-content: center;
+		justify-content: flex-end;
 		background-color: #1dace0;
+		height: 40px;
+	}
+
+	.footer-text{
+		margin-right: 20px;
+		margin-top: 10px;
 	}
 
 /* タブレット */
@@ -212,6 +218,7 @@ footer{
 
     .contact{
     	text-align: center;
+    	align-items: center;
     }
 
     .contact .subtitle{
