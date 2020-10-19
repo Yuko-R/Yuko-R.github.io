@@ -254,7 +254,7 @@ footer{
 	}
 
 	.form-right{
-		margin-left: 40px;
+		margin-left: 45px;
 		padding-top: -3px;
 	}
 
@@ -268,11 +268,30 @@ footer{
 /* スマフォ用 */
 @media screen and (max-width: 480px){
 body{
-	min-width: 375px;
+	min-width: 400px;
+}
+
+.top{
+	align-items: center;	
+	width: 100%;
+	height: 450px;
+}
+
+.toppic{
+	width: 350px;
+	height: 300px;
 }
 
 .icon{
 	margin-left: 20px;
+}
+
+.icon .name{
+	margin-left: 10px;
+}
+
+.header-right{
+	display: none;
 }
 
 .character{
@@ -293,11 +312,10 @@ body{
 .contact .form{
 		flex-flow: column nowrap;
 		margin: 30px 0;
-		width: 480px;
 	}
 
 	.form .name, .form .email, .form .inquiry {
-		width: 400px;
+		width: 300px;
 	}
 
 	.form .name, .form .email{
@@ -306,7 +324,8 @@ body{
 
 	.form .inquiry{
 		height: 50px;
-		width: 400px;
+		width: 300px;
+		margin-left: 8px;
 	}
 
 	.form-left{
@@ -314,7 +333,7 @@ body{
 	}
 
 	.form-right{
-		margin-top: 20px;
+		margin-top: 5px;
 	}
 
 	.contact button{
